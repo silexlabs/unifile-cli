@@ -1,0 +1,35 @@
+{
+  "name": "unifile-cli",
+  "version": "0.0.1",
+  "description": "CLI client for a Unifile back-end",
+  "main": "lib/index.js",
+  "engine": {
+    "node": ">=4.2.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/index.js",
+    "debug": "DEBUG=true node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silexlabs/unifile-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "unifile",
+    "cloud"
+  ],
+  "author": "JbIPS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/silexlabs/unifile-cli/issues"
+  },
+  "homepage": "https://github.com/silexlabs/unifile-cli#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "unifile": "file:///home/jbrichardet/Documents/workspace/unifile#refacto-api",
+    "vorpal": "^1.10.10",
+    "vorpal-log": "^1.1.0"
+  }
+}
